@@ -1,0 +1,21 @@
+{
+  "name": "react-email-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup react-email-renderer.tsx && ./postbuild.sh"
+  },
+  "keywords": [],
+  "author": "Anand Chowdhary <mail@anandchowdhary.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "react-shadow": "^20.5.0"
+  }
+}

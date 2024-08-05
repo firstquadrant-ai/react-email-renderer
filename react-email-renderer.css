@@ -1,0 +1,69 @@
+table {
+  zoom: 0.9;
+}
+* {
+  font-size: 100% !important;
+  font-family: inherit !important;
+  color: inherit !important;
+  line-height: inherit !important;
+  background-color: inherit !important;
+}
+a {
+  color: inherit !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+}
+
+img[src^="cid:"] {
+  display: none;
+}
+img {
+  border-radius: 0.3rem !important;
+}
+
+[name="messageSignatureSection"] {
+  opacity: 0.5;
+}
+#Signature {
+  opacity: 0.5;
+}
+.gmail_signature {
+  opacity: 0.5;
+}
+
+.gmail_quote {
+  display: none;
+}
+[name="messageReplySection"] {
+  display: none;
+}
+br:has(+ .gmail_quote) {
+  display: none;
+}
+blockquote[type="cite"] {
+  display: none;
+}
+div:has(+ blockquote[type="cite"]) {
+  display: none;
+}
+blockquote[type="cite"] + div {
+  display: none;
+}
+#appendonsend + hr {
+  display: none !important;
+}
+#appendonsend + hr + div {
+  display: none;
+}
+#appendonsend + hr + div + div {
+  display: none;
+}
+div[style*="border-top"][style*="solid"][style*="1.0pt"][style*="3.0pt"] {
+  display: none;
+}
+div[style*="border-top"][style*="solid"][style*="1.0pt"][style*="3.0pt"] ~ * {
+  display: none;
+}
+#mail-editor-reference-message-container {
+  display: none;
+}
